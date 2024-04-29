@@ -21,7 +21,7 @@ import React from 'react';
 import { PNG, Diagram, GeneralIcon } from 'rediagram';
 import { AWS, InvizAWS, EC2, Lambda, Region, SecurityGroup, AutoScalingGroup } from '@rediagram/aws';
 
-PNG(
+return(
   <Diagram title="My Infra">
     <InvizAWS>
       <AWS>
